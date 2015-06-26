@@ -1,23 +1,20 @@
 <html>
+
 <head>
-  <title>NedryJS example</title>
-  <script src="js/nedry.js"></script>
-  <script type="text/javascript">
-    var run = function(){
-      if (document.getElementsByClassName("inputtext")[0].value === 'demo'){
-        nedry.run();
-      }
+    <title>NedryJS example</title>
+    <script src="js/nedry.js"></script>
+    <script type="text/javascript">
+    var runDemo = function() {
+        if (document.getElementsByClassName("inputtext")[0].value === 'hodor') {
+            nedry.run();
+        }
     }
-  </script>
+    </script>
 </head>
+
 <body>
     <input type="text" class="inputtext">
-    <button onclick="run()">HODOR</button>
-    <p>Hodor HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor hodor hodor hodor hodor hodor?! Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor HODOR hodor, hodor hodor. Hodor! Hodor hodor, hodor hodor hodor hodor... Hodor hodor HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor HODOR hodor, hodor hodor? Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor hodor hodor hodor - hodor hodor! Hodor. Hodor hodor, hodor. Hodor hodor hodor. </p>
-    <p>Hodor, hodor. Hodor. Hodor, hodor hodor hodor, hodor. Hodor hodor?! Hodor hodor - hodor hodor hodor! Hodor hodor HODOR! Hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor... Hodor hodor hodor; hodor hodor. Hodor. Hodor, hodor. Hodor. Hodor, HODOR hodor, hodor hodor, hodor. Hodor hodor; hodor hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor... Hodor hodor hodor hodor... Hodor hodor hodor hodor. Hodor. </p>
-    <p>Hodor. Hodor hodor... Hodor hodor hodor hodor! Hodor. Hodor hodor, hodor. Hodor hodor, hodor. Hodor hodor - hodor, hodor, hodor hodor. Hodor. Hodor HODOR hodor, hodor hodor hodor?! Hodor. Hodor hodor hodor hodor! Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor HODOR hodor, hodor hodor - hodor hodor! Hodor hodor HODOR! Hodor hodor hodor HODOR hodor, hodor HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor, hodor. Hodor hodor hodor! Hodor hodor - hodor... Hodor hodor hodor hodor! </p>
-    <p>Hodor hodor - hodor... Hodor hodor hodor?! Hodor hodor HODOR! Hodor hodor - hodor; hodor hodor... Hodor hodor hodor hodor! Hodor, hodor. Hodor. Hodor, hodor hodor, hodor. Hodor hodor. Hodor. Hodor. Hodor hodor - hodor hodor! Hodor hodor - hodor; hodor hodor, hodor. Hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor - hodor. </p>
-    <p>Hodor hodor - hodor - hodor - hodor. Hodor hodor - hodor; hodor hodor; hodor hodor hodor hodor? Hodor hodor - hodor hodor hodor - hodor?! Hodor HODOR hodor, hodor hodor... Hodor hodor hodor?! Hodor hodor - hodor hodor hodor hodor?! Hodor hodor - HODOR hodor, hodor hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor. Hodor hodor? Hodor hodor HODOR! Hodor hodor; hodor hodor - hodor hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor? </p>
+    <button onclick="runDemo()">Run Demo</button> <span> (if input text is 'hodor', you will see the modal)</span>
 </body>
 
 </html>
