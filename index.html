@@ -4,6 +4,8 @@
     <title>NedryJS example</title>
     <script src="js/nedry.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton/skeleton.css">
     <script type="text/javascript">
     var runDemo = function() {
         if (document.getElementsByClassName("inputtext")[0].value === 'hodor') {
@@ -15,10 +17,26 @@
 
 <body>
     <a href="https://github.com/TheOneTheOnlyDavidBrown/NedryJS"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
-    <h1>NedryJS Example</h1>
-    <input type="text" class="inputtext" placeholder="text here">
-    <button class="btn" onclick="runDemo()">Run Demo</button>
-    <div>If input text is 'hodor', you will see the overlay. Turn audio on</div>
+    <div class="row">
+        <div class="twelve columns">
+            <div class="title">NedryJS Example</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <input type="text" class="inputtext" placeholder="text here">
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <button class="btn" onclick="runDemo()">Run Demo</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <div>If input text is 'hodor', you will see the overlay. Turn audio on</div>
+        </div>
+    </div>
 </body>
 
 </html>

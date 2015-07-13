@@ -1,9 +1,26 @@
 body {
   background: #4A6A45;
+}
+
+div,
+button {
   color: #BCCABA;
 }
 
+.title {
+  font-size: 35px;
+}
+
+.row {
+  text-align: center;
+}
+.row input{
+    margin: 10px auto;
+
+}
+
 .btn {
+  color: #BCCABA;
   background: #8FA48C;
   background-image: -webkit-linear-gradient(top, #8FA48C, #8FA48C);
   background-image: -moz-linear-gradient(top, #8FA48C, #8FA48C);
@@ -18,13 +35,16 @@ body {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   border: none;
+  height: inherit;
 }
 
 .btn:hover {
+  color: #BCCABA;
   text-decoration: none;
 }
 
 input {
+  color: #BCCABA;
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   display: block;
